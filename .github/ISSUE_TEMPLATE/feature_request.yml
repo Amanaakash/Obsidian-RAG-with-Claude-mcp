@@ -1,0 +1,36 @@
+name: Feature request
+description: Propose a focused improvement to retrieval, indexing, MCP, or documentation.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the user or retrieval problem before proposing a technology.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Explain the desired behavior and how success could be measured.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Note simpler approaches or tradeoffs that were considered.
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety and scope
+      options:
+        - label: This proposal does not include private vault content or credentials.
+          required: true
+        - label: I described any impact on read-only behavior, privacy, or data persistence.
+          required: true

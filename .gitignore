@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Environments and local configuration
+.venv*/
+.env
+.env.*
+!.env.example
+.mcp.json
+
+# Local RAG data
+.rag_data/
+*.refresh.lock
+*.status.json
+chroma.sqlite3
+
+# Build output
+build/
+dist/
+wheelhouse/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generated project artifacts
+*.pptx
+*.pptx.inspect.ndjson
+*_PRESENTATION/
+pptx_build_*/
