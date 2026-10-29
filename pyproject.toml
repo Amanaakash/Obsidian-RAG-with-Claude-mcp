@@ -21,7 +21,7 @@ classifiers = [
 ]
 dependencies = [
     "chromadb>=1.0,<2.0",
-    "filelock>=3.16,<4.0",
+    "filelock>=3.16,<5.0",
     "mcp>=2.0,<3.0",
     "ollama>=0.5,<1.0",
     "pyyaml>=6.0,<7.0",
